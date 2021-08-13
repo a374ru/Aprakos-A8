@@ -1,0 +1,337 @@
+/*  Во имя Отца и Сына и Святаго Духа. Аминь. */
+
+
+/* =================== */
+
+
+/* project variables */
+
+
+/* =================== */
+
+:root {
+    --kino-var: #e34234;
+    --date-var: #ffd8d4;
+    --seedday-var: #6fbf5f;
+}
+
+
+/* =================== */
+
+
+/* =================== */
+
+
+/* =================== */
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes example {
+    from {
+        background-color: rgb(188, 255, 141);
+    }
+    to {
+        background-color: ffe7e563;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    from {
+        background-color: rgb(188, 255, 141);
+    }
+    to {
+        background-color: ffe7e563;
+    }
+}
+
+.blockOFF {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Irmologion';
+    /* src: url('../font/Clunya-IrmIEUcs.otf'); */
+    src: url('http://aprakos.ru/font/Clunya-IrmIEUcs.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: #fffdfa;
+    /* margin: 7px 33px 7px; */
+    text-indent: 22px;
+}
+
+h1 {
+    margin: 110px 0px;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(0, 102, 255);
+}
+
+.memory-ol {
+    color: #000000;
+}
+
+.red {
+    color: var(--kino-var);
+}
+
+.sedmica {
+    color: #000000;
+    font-size: 1.2em;
+}
+
+a:link {
+    color: var(--kino-var, rgb(134, 72, 0));
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--kino-var, rgb(134, 72, 0));
+    text-decoration: none;
+}
+
+.date {
+    margin: 22px 33px 33px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    /* date size */
+    /* margin-left: 15px */
+    color: #000000;
+}
+
+.dug a {
+    color: #fffdfa;
+}
+
+.dugpre {
+    color: #ffffff;
+    background-color: var(--date-var);
+    margin-right: 0px;
+    padding: 4px 20px 2px 12px;
+    border-radius: 7px 0px 0px 7px;
+    /* font-weight: bold; */
+}
+
+.dugprePlusUngles {
+    color: #dbdbdb;
+    /* background-color: var(--date-var); */
+    margin-right: 0px;
+    padding: 1px 16px 1px 12px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.colorBlock {
+    /* margin-right: 12px; */
+    /* background-color: #ffe7e563; */
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    /* width: auto; */
+    /* box-shadow: 0px 0px 17px 4px  #fffb0054; */
+}
+
+.seeddayON {
+    color: #000000;
+    /* background-color: var(--seedday-var); */
+    margin-right: 0px;
+    background-color: #f0ffe3;
+    padding: 6px 0px 0px 10px;
+    border-radius: 0px 0px 7px 7px;
+    border-bottom: 4px solid var(--seedday-var);
+    line-height: 2.5em;
+    /* border-right: 40px solid transparent; */
+    /* border-right: 110px solid #ec3504; */
+}
+
+.dug {
+    color: #ffffff;
+    background-color: var(--seedday-var);
+    padding: 4px 16px 2px 12px;
+    border-radius: 0px 7px 7px 0px;
+    font-weight: bold;
+}
+
+.link-ancor a {
+    color: #021458;
+}
+
+.name {
+    margin: 52px 33px 33px;
+    font-family: Irmologion;
+    font-size: 2.5em;
+    text-indent: 0px;
+    color: var(--kino-var, red);
+    text-transform: uppercase;
+}
+
+.old {
+    margin: 22px 33px 33px;
+    color: var(--kino-var, red);
+}
+
+.new {
+    margin: 22px 33px 33px;
+    color: rgb(0, 0, 0);
+}
+
+.abzac {
+    margin: 22px 13px 33px;
+    padding: 12px;
+    font-family: Irmologion;
+    font-size: 1.7em;
+    color: #502c00;
+}
+
+.snoska {
+    color: dimgrey;
+    text-indent: 0px;
+}
+
+hr {
+    border-width: 3px;
+    border-top-color: #000000;
+    border-bottom-color: #600000;
+    opacity: 0.1;
+}
+
+.hr-1 {
+    margin-left: 27px;
+    width: 250px;
+    border-top-color: var(--kino-var);
+}
+
+.hr-mejjdu {
+    margin-top: 73px;
+    width: 97%;
+}
+
+sup {
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--kino-var);
+}
+
+@media only screen and (min-device-width: 320px)and (max-device-width: 414px) and (orientation: portrait) {
+    body {
+        margin: 12px -3px 13px;
+        text-indent: 0px;
+        /* font-size: 0.7em; */
+    }
+    .abzac {
+        margin: 3px 3px 23px 3px;
+        /* font-family: Irmologion; */
+        /* font-size: 1.3em */
+    }
+    .name {
+        font-family: Irmologion;
+        font-size: 1.8em;
+    }
+    .hr-1 {
+        /* margin-left: 10px; */
+        width: 240px;
+        border-top-color: var(--kino-var)
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    body {
+        /* margin: 12px 13px 13px; */
+        text-indent: 0px;
+        /* font-size: 1em; */
+    }
+    .abzac {
+        /* font-family: Irmologion; */
+        margin: 23px 3px 23px 13px;
+        font-size: 2em
+    }
+    .name {
+        font-family: Irmologion;
+        font-size: 2em;
+    }
+    .memory-ol a:visited {
+        color: #000000;
+    }
+}
+
+@media only screen and (min-device-width: 737px) and (max-device-width: 1024px) and (orientation: portrait) {
+    body {
+        margin: 22px 23px 23px;
+        text-indent: 0px;
+        /* font-size: 1.2em; */
+    }
+    .abzac {
+        font-family: Irmologion;
+        font-size: 2.5em
+    }
+    .name {
+        margin: 12px 13px 13px;
+        font-family: Irmologion;
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-device-width: 1752px) {
+    body {
+        margin: 52px 73px 73px;
+        text-indent: 0px;
+        /* font-size: 1.7em; */
+    }
+    .abzac {
+        /* font-family: Irmologion; */
+        font-size: 2.3em
+    }
+    .name {
+        font-family: Irmologion;
+        font-size: 3.2em;
+    }
+    .hr-1 {
+        width: 300px;
+    }
+    sup {
+        font-size: 22px;
+    }
+    .colorBlock {
+        padding: 5%;
+    }
+}
+
+@media only screen and (min-width: 1752px) {
+    body {
+        margin: 52px 52px 3px 73px;
+        text-indent: 0px;
+        font-size: 3em;
+    }
+    .name {
+        font-family: Irmologion;
+        font-size: 3.5em;
+    }
+    .hr-1 {
+        width: 77%;
+    }
+    sup {
+        font-size: 3.2px;
+    }
+    .abzac {
+        font-family: Irmologion;
+        margin: 123px 20px 3px 13px;
+    }
+    .date {
+        margin: 122px 33px 33px;
+        font-size: 3rem;
+        /* date size */
+        /* margin-left: 15px */
+    }
+    .colorBlock {
+        padding: 8%;
+    }
+}

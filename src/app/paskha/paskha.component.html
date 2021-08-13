@@ -1,0 +1,28 @@
+<div style="font-size: 1.2em" class="paskhaDate">
+
+    <!-- <ng-content select="h1, h2, h3, p"></ng-content> -->
+    <p class="pashaLastDate" [style.font-size.em]="2">Прошедшая Пасха: {{ _datesService.datesEasterYear.lastEasterRU}}</p>
+
+    <app-sed>
+        <!-- код из файла sed.component -->
+    </app-sed>
+
+
+    <p>Грядущая Пасха: {{ _datesService.datesEasterYear.nextEasterRU }}</p>
+
+    <!-- Пример форматирования даты (pipe) -->
+    <!-- <p>{{ paskhaCurrentYear | date:"MM/dd yyyy" }}</p> -->
+
+    <p> Текщий год - {{_datesService.currentYear}}</p>
+<!-- {{paskhalia | json}} -->
+
+<div>
+    <!-- =-=-=-=-{{paskhalia}} -->
+    <ul style="list-style-type: none">
+        <li *ngFor="let item of _datesService.paskhaliaJSON | keyvalue">год: … <span style="font-size: 120%"><b> {{item.key}}</b></span> {{item.value[1]}} {{_datesService.monthsRU[item.value[0]]}}</li>
+        <!-- <li *ngFor="let item of PASKHALIA; let i=index">------</li> -->
+    </ul>
+
+</div>
+</div>
+

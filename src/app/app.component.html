@@ -1,0 +1,35 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<p class="name">
+    
+    <!-- Данная ссылка должна ссылаться на текущий документ седмицы: смотри примечания к шаблону -->
+    <a [ngClass]="{'class': red}" [href]="_linksService.linkToPageOfTheDay" 
+    
+    class="apracos-title"
+        title="☨ АПРАКОС КНИГ ЕВАНГЕЛИЯ И АПОСТОЛ. НЕДЕЛЬНЫЕ (ВОСКРЕСНЫЕ) И КАЖДОДНЕВНЫЕ ЧТЕНИЯ СЕДМИЦЫ НАЧИНАЯ ОТ ПАСХИ, СОГЛАСНО УСТАВУ ПРАВОСЛАВНОЙ ЦЕРКВИ.">СІЙ
+        ДЕ~НЬ</a>
+</p>
+<p class="name">
+
+    <!-- Данная ссылка должна ссылаться на текущий документ седмицы: смотри примечания к шаблону -->
+
+    <a [ngClass]="{'class': red}" [href]="_linksService.linkTheAprakosDay" class="apracos-title"
+        title="☨ АПРАКОС КНИГ ЕВАНГЕЛИЯ И АПОСТОЛ. НЕДЕЛЬНЫЕ (ВОСКРЕСНЫЕ) И КАЖДОДНЕВНЫЕ ЧТЕНИЯ СЕДМИЦЫ НАЧИНАЯ ОТ ПАСХИ, СОГЛАСНО УСТАВУ ПРАВОСЛАВНОЙ ЦЕРКВИ.">Апра~косъ
+        и АПО~СТОЛЪ
+    </a>
+
+</p>
+
+<nav class="topBar">
+    <ol class="timeOut">
+        <!-- <ol [ngClass]="{'classOFF': true}"> -->
+        <li><a routerLink="./">home</a></li>
+        <li><a routerLink="paskha">paskha</a></li>
+        <li><a routerLink="component-testing">тестовая стр.</a></li>
+    </ol>
+</nav>
+
+<router-outlet>
+    <!-- здесь вывод роута, она же страница -->
+</router-outlet>
+<hr>
+<h3><a [ngClass]="{'class': red}" [routerLink]="['/']">{{mainPage}} {{title}}</a></h3>

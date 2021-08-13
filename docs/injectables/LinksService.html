@@ -1,0 +1,980 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ДОКУМЕНТАЦИЯ АПРАКОСЪ</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+        <link rel="stylesheet" href="../styles/postmark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ДОКУМЕНТАЦИЯ АПРАКОСЪ</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li >LinksService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#readme" role="tab" id="readme-tab" data-toggle="tab" data-link="readme">README</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/svrs/links.service.ts</code>
+        </p>
+
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#_sedService" >_sedService</a>
+                            </li>
+                            <li>
+                                <a href="#ancor" >ancor</a>
+                            </li>
+                            <li>
+                                <a href="#dvunadesyatieDnie" >dvunadesyatieDnie</a>
+                            </li>
+                            <li>
+                                <a href="#flag" >flag</a>
+                            </li>
+                            <li>
+                                <a href="#linkTheAprakosDay" >linkTheAprakosDay</a>
+                            </li>
+                            <li>
+                                <a href="#linkToNineZachala" >linkToNineZachala</a>
+                            </li>
+                            <li>
+                                <a href="#linkToPageOfTheDay" >linkToPageOfTheDay</a>
+                            </li>
+                            <li>
+                                <a href="#td" >td</a>
+                            </li>
+                            <li>
+                                <a href="#zeroDay" >zeroDay</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ancorLinksToSed" >ancorLinksToSed</a>
+                            </li>
+                            <li>
+                                <a href="#CorrectingMonthNumbersDay" >CorrectingMonthNumbersDay</a>
+                            </li>
+                            <li>
+                                <a href="#pathToPageAprakosDay" >pathToPageAprakosDay</a>
+                            </li>
+                            <li>
+                                <a href="#pathToPageDay" >pathToPageDay</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_sedService: <a href="../injectables/SedService.html" target="_self">SedService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="60" class="link-to-prism">src/app/svrs/links.service.ts:60</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_sedService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/SedService.html" target="_self" >SedService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ancorLinksToSed"></a>
+                    <span class="name">
+                        <span ><b>ancorLinksToSed</b></span>
+                        <a href="#ancorLinksToSed"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ancorLinksToSed()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="166"
+                            class="link-to-prism">src/app/svrs/links.service.ts:166</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Функция инициализирует переменную <code>idLink</code> ссылкой на странице <code>stvol.html</code>.
+Ссылка (#id) на текущую седмицу текущей страницы БЕЗ УЧЕТА отступок и преступок.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="CorrectingMonthNumbersDay"></a>
+                    <span class="name">
+                        <span ><b>CorrectingMonthNumbersDay</b></span>
+                        <a href="#CorrectingMonthNumbersDay"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>CorrectingMonthNumbersDay(visekt: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, gd: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="177"
+                            class="link-to-prism">src/app/svrs/links.service.ts:177</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>005.
+Функция увеличивает Юлианскую дату в високосном году, в дапазоне от 29 февраля до 16 марта на единицу.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>visekt</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>принимает один из двух месяцев (Февраль или Март).</p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>gd</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>принимает Юлианскую дату.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>Юлианскую дату.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pathToPageAprakosDay"></a>
+                    <span class="name">
+                        <span ><b>pathToPageAprakosDay</b></span>
+                        <a href="#pathToPageAprakosDay"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>pathToPageAprakosDay()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="133"
+                            class="link-to-prism">src/app/svrs/links.service.ts:133</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>009.
+Функция инициализирует переменную <code>pathToPageApracosDay</code>.
+Функция проверяет совпадение для текущего дня с датами девяти великих непереходящих празнеств и корректирует ссылку на зачала этих девяти праздников.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pathToPageDay"></a>
+                    <span class="name">
+                        <span ><b>pathToPageDay</b></span>
+                        <a href="#pathToPageDay"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>pathToPageDay()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="79"
+                            class="link-to-prism">src/app/svrs/links.service.ts:79</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Функция инициализирует переменную <code>linkToPageOfTheDay</code>
+ссылкой на страницу дня, в соответствии с Минеей (Сий день).</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>инициализирует переменую <code>linkToNineZachala</code>, ссылкой на страницу зачал Двунадесятых <em>недвижимых</em> праздников.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+            <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_sedService"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>_sedService</b></span>
+                        <a href="#_sedService"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/SedService.html" target="_self" >SedService</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/svrs/links.service.ts:62</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ancor"></a>
+                    <span class="name">
+                        <span ><b>ancor</b></span>
+                        <a href="#ancor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="50" class="link-to-prism">src/app/svrs/links.service.ts:50</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Ссылка на #id страницы <code>stvol.html</code>.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dvunadesyatieDnie"></a>
+                    <span class="name">
+                        <span ><b>dvunadesyatieDnie</b></span>
+                        <a href="#dvunadesyatieDnie"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/svrs/links.service.ts:37</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>003.
+Ссылка на зачала текущего дня с учетом приходящего на данный день Двунадесятого непереходящего праздника.
+Это замена рядового зачала на праздничное.
+Всего таких праздников – 9.
+Смотри dateService -&gt; DVUNADESYATIE</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="flag"></a>
+                    <span class="name">
+                        <span ><b>flag</b></span>
+                        <a href="#flag"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">src/app/svrs/links.service.ts:55</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Флаг для переключения условия.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="linkTheAprakosDay"></a>
+                    <span class="name">
+                        <span ><b>linkTheAprakosDay</b></span>
+                        <a href="#linkTheAprakosDay"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/svrs/links.service.ts:27</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>002.
+Удерживает ссылку на текущий день Апракоса без корекции Двунадесятых праздников.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="linkToNineZachala"></a>
+                    <span class="name">
+                        <span ><b>linkToNineZachala</b></span>
+                        <a href="#linkToNineZachala"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="60" class="link-to-prism">src/app/svrs/links.service.ts:60</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Ссылка на зачала текущего двунадесятого праздника.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="linkToPageOfTheDay"></a>
+                    <span class="name">
+                        <span ><b>linkToPageOfTheDay</b></span>
+                        <a href="#linkToPageOfTheDay"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/svrs/links.service.ts:21</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>001.
+Переменная удерживает html-ссылку на Главную страницу дня.
+Далее ссылка парсится компонентом.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="td"></a>
+                    <span class="name">
+                        <span ><b>td</b></span>
+                        <a href="#td"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/svrs/links.service.ts:43</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p> Число текущего дня.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="zeroDay"></a>
+                    <span class="name">
+                        <span ><b>zeroDay</b></span>
+                        <a href="#zeroDay"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/svrs/links.service.ts:44</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+    <div class="tab-pane fade " id="c-readme">
+        <p><h1 id="сервис-ссылок">Сервис ссылок</h1>
+<h2 id="в-данном-сервисе-генерирутся-линки-на-необходимые-ресурсы-с-учетом-всех-условий">В данном сервисе генерирутся линки на необходимые ресурсы с учетом всех условий.</h2>
+</p>
+    </div>
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Injectable } from &#x27;@angular/core&#x27;;
+import { SedService } from &#x27;./sed.service&#x27;;
+import { DateService, NINEHOLIDAYS } from &#x27;./date.service&#x27;;
+
+
+
+
+
+@Injectable({
+  providedIn: &#x27;root&#x27;
+})
+
+
+  
+export class LinksService {
+
+  /** 001.
+   * Переменная удерживает html-ссылку на Главную страницу дня. 
+   * Далее ссылка парсится компонентом.
+   */
+  linkToPageOfTheDay: string;
+
+  /** 002.
+   * Удерживает ссылку на текущий день Апракоса без корекции Двунадесятых праздников.
+   * 
+   */
+  linkTheAprakosDay: string;
+
+
+  /** 003. 
+   * Ссылка на зачала текущего дня с учетом приходящего на данный день Двунадесятого непереходящего праздника.
+   * Это замена рядового зачала на праздничное.
+   * Всего таких праздников – 9.
+   * Смотри dateService -&gt; DVUNADESYATIE
+   * 
+   */
+  dvunadesyatieDnie: string;
+
+/**
+   *  Число текущего дня.
+   * 
+  */
+  td: number;
+  zeroDay: string; // для приведения в строку числа с начальным нолем – 01
+
+  /**
+   * Ссылка на #id страницы &#x60;stvol.html&#x60;.
+   * 
+   */
+  ancor: string;
+
+  /**
+   * Флаг для переключения условия.
+   */
+  flag: boolean &#x3D; false;
+
+  /**
+   * Ссылка на зачала текущего двунадесятого праздника.
+   */
+  linkToNineZachala: string;
+
+  constructor(public _sedService: SedService) {
+
+
+    this.linkToNineZachala &#x3D; this.pathToPageDay();
+    this.pathToPageAprakosDay();
+    this.ancorLinksToSed();
+
+
+  }
+
+
+  /**
+      * Функция инициализирует переменную &#x60;linkToPageOfTheDay&#x60; 
+      * ссылкой на страницу дня, в соответствии с Минеей (Сий день).
+      * 
+      * @return инициализирует переменую &#x60;linkToNineZachala&#x60;, ссылкой на страницу зачал Двунадесятых *недвижимых* праздников.
+      */
+  pathToPageDay(): string {
+
+    let months &#x3D; [&#x27;JAN&#x27;, &#x27;FEB&#x27;, &#x27;MAR&#x27;, &#x27;APR&#x27;, &#x27;MAY&#x27;, &#x27;JUN&#x27;, &#x27;JUL&#x27;, &#x27;AUG&#x27;, &#x27;SEP&#x27;, &#x27;OCT&#x27;, &#x27;NOV&#x27;, &#x27;DEC&#x27;];
+
+    // дней в месяцах
+    let notVisokos &#x3D; [&#x27;31&#x27;, &#x27;28&#x27;, &#x27;31&#x27;, &#x27;30&#x27;, &#x27;31&#x27;, &#x27;30&#x27;, &#x27;31&#x27;, &#x27;31&#x27;, &#x27;30&#x27;, &#x27;31&#x27;, &#x27;30&#x27;, &#x27;31&#x27;];
+
+    // високос
+    let visokos &#x3D; [&#x27;31&#x27;, &#x27;29&#x27;, &#x27;31&#x27;, &#x27;30&#x27;, &#x27;31&#x27;, &#x27;30&#x27;, &#x27;31&#x27;, &#x27;31&#x27;, &#x27;30&#x27;, &#x27;31&#x27;, &#x27;30&#x27;, &#x27;31&#x27;];
+
+
+    let d &#x3D; new Date()
+    this.td &#x3D; d.getDate();
+
+    // let ddd &#x3D; 
+
+    if (this.td &lt; 10) {
+      this.zeroDay &#x3D; &quot;0&quot; + this.td;
+    } else {
+      this.zeroDay &#x3D; String(this.td)
+    }
+
+    let tm &#x3D; d.getMonth();
+    let ty &#x3D; d.getFullYear();
+    let visekt &#x3D; ((ty % 4) &#x3D;&#x3D; 0) ? visokos : notVisokos;
+
+    if (tm &#x3D;&#x3D; 0 &amp;&amp; this.td &lt;&#x3D; 13) {
+      var mm &#x3D; 11;
+      var ss &#x3D; Number(visekt[mm]) - (13 - this.td);
+    } else if (tm &gt; 0 &amp;&amp; this.td &lt;&#x3D; 13) {
+      mm &#x3D; tm - 1;
+      ss &#x3D; Number(visekt[mm]) - (13 - this.td);
+    } else {
+      mm &#x3D; tm;
+      ss &#x3D; (this.td - 13);
+    }
+
+    if (ss &lt; 10) { var dd &#x3D; &#x27;0&#x27; + ss; } else { dd &#x3D; String(ss); }
+
+    //  Инициализация стандартного пути без учета двунадесятых праздников.
+    this.linkToPageOfTheDay &#x3D; (months[mm] + &quot;/&quot; + dd + this.CorrectingMonthNumbersDay(visekt[1], this.zeroDay) + &quot;/&quot; + &quot;index.html&quot;);
+
+    // Возврат измененного пути к зачалам двунадесятого праздника, так как зачала располагаются в директориях неподвижного круга праздников в отличиии от зачал Богослужебгного года.
+    return (months[mm] + &quot;/&quot; + dd + this.CorrectingMonthNumbersDay(visekt[1], this.zeroDay) + &quot;/&quot; + &quot;zachala.html&quot;)
+
+  }
+
+
+  /** 009.
+   * Функция инициализирует переменную &#x60;pathToPageApracosDay&#x60;. 
+   * Функция проверяет совпадение для текущего дня с датами девяти великих непереходящих празнеств и корректирует ссылку на зачала этих девяти праздников.
+   * 
+   * @var correctingLinkToReadAprakos корректировка ссылки на чтение Апракоса с учетом всех отступок и преступок Богослужебного года, но без учета двунадесятых праздников.
+   */
+  pathToPageAprakosDay() {
+
+    // Проверка даты на совпадение из девяти празнеств представленных в словаре девяти празнеств – NINEHOLIDAYS.
+    let oneOfTheNineHolidays &#x3D; this._sedService._datesService.timeBox.getMonth() + &quot;, &quot; + this._sedService._datesService.timeBox.getDate()
+  
+    
+    for (const item in NINEHOLIDAYS) {
+      
+      // проверяем дату на совпадение с одним из девяти неперехлдящих праздников находящихся в коллекции &#x60;NINEHOLIDAYS&#x60;.
+      if (oneOfTheNineHolidays &#x3D;&#x3D; NINEHOLIDAYS[item].month + &quot;, &quot; + NINEHOLIDAYS[item].day) {
+        this.flag &#x3D; true
+
+      }
+    }
+    
+    if (this.flag) { 
+      // Если условие истина то корректируется ссылка, на страницу зачал для текущего праздника. Таких случаев в году всего девять и это статичные даты не требующие вычисления отступок.
+      this.linkTheAprakosDay &#x3D; this.linkToNineZachala
+
+    } else {
+
+      let correctingLinkToReadAprakos &#x3D; this._sedService.currentWeek &gt; 40 ? this._sedService.betweenWeeks : 0
+
+      // Комплектация пути до Апракоса
+      this.linkTheAprakosDay &#x3D; (&quot;../APRACOS/&quot; + (this._sedService.currentWeek - correctingLinkToReadAprakos) + &quot;/&quot; + (this._sedService._datesService.timeBox.getDay() + 1) + &quot;.html&quot;)
+    
+       }
+  }
+
+  /**
+   * Функция инициализирует переменную &#x60;idLink&#x60; ссылкой на странице &#x60;stvol.html&#x60;.
+   * Ссылка (#id) на текущую седмицу текущей страницы БЕЗ УЧЕТА отступок и преступок.
+   */
+  ancorLinksToSed() {
+    this.ancor &#x3D; (&quot;#seed&quot; + this._sedService.currentWeek)
+  }
+
+  /** 005.
+   * Функция увеличивает Юлианскую дату в високосном году, в дапазоне от 29 февраля до 16 марта на единицу.
+   * 
+   * @param visekt принимает один из двух месяцев (Февраль или Март).
+   * @param gd принимает Юлианскую дату.
+   * @return Юлианскую дату.
+   */
+  CorrectingMonthNumbersDay(visekt: string, gd: string): string {
+
+    let n &#x3D; Number(gd)
+
+    if (visekt &#x3D;&#x3D;&#x3D; &quot;29&quot; &amp;&amp; n &#x3D;&#x3D;&#x3D; 29) {
+      return &quot;00visekt&quot;
+    }
+
+    return gd
+
+  }
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = '009.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       
+       <script type="module" src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

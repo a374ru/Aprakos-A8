@@ -1,0 +1,40 @@
+<!-- <ng-content select='code'></ng-content> -->
+<!-- =-=-=-=-=-=-===-=-sed.component=-=-===-=-=-=-=-=-=-=-=-=-===- -->
+<div id="date" class="date" style="text-indent: 0px; padding-left: 12px"
+    title="Числа седмиц Православного Церковного года">Зачала всего лета по Пасхе.
+    <br>
+    <div class="123">
+        <span class="dugpre"
+            title="СЕМЬ ПОСЛЕДОВАТЕЛЬНЫХ ДНЕЙ. ПЕРВЫМ ДНЁМ В CЕДМИЦЕ ОБЪЯВЛЯЕТСЯ ДЕНЬ ПОД НАЗВАНИЕМ – НЕДЕЛЯ, ИНАЧЕ НАЗЫВАЕМЫЙ – ВОСКРЕСЕНИЕМ.">Седмица по Пасхе</span>
+        <span id="date2" class="dug"><a [href]="_linksServise.ancor">{{ _sedService.currentWeek }}</a></span>
+    </div>
+    <div *ngIf="weekAfterPyatidesyatnica">
+        <span id="date3" class="dugpre"
+            title="ПОКАЗЫВАЕТ ЧИСЛО СЕДМИЦЫ СЧИТАЯ ОТ ПРАЗДНИКА ПЯТИДЕСЯТНИЦЫ, НАЧИНАЯ С ВОСКРЕСЕНЬЯ">По Пятьдесятнице
+        </span>
+        <span id="date4" class="dug ">{{ _sedService.weekAfterPyatidesyatnica }} </span>
+    </div>
+    <div id="date5" class="123" style="text-indent: 0px; padding-left: 12px; font-weight: unset; color: #5e5e5e"
+        title="ГЛАС ТЕКУЩЕЙ СЕДМИЦЫ">Глас Октоиха - <b>{{ _sedService.glas }}</b></div>
+</div>
+<hr class="hr-1">
+<br>
+<!-- =-=-=-=-=-=-===-=-=-=-===-=-=-=-=-=-=-=-=-=-===- -->
+
+<div style="font-size: 1.2em" class="rrr">
+    <!-- конвертирование миллисекунд в дату
+    <b>Пасха бывшая - </b>{{ datesEasterYear.lastEaster | date }} 
+    <br>
+    <b>Пасха грядущая </b>- {{ datesEasterYear.nextEaster | date }} -->
+    <p>Богослужебный год составляет в седмицах: {{ _sedService.sumWeeks }}.</p>
+    <p>Воздвиженская <strong>{{_sedService.stupka}}</strong> составляет в седмицах: {{ _sedService.otstupkaV }}.</p>
+    <p *ngIf="weekAfterPyatidesyatnica">Текущая седмица по Пятидесятнице: {{_sedService.weekAfterPyatidesyatnica }}</p>
+    <p>
+        Глас седмицы: {{_sedService.glas}}
+        <!-- <input [(ngModel)]="glas"> -->
+    </p>
+    <!-- <input #box placeholder="{{r}}" (keyup.enter)="onKey(box.value)">
+<p>{{r}}</p> -->
+    <p>Количество промежуточных седмиц: {{_sedService.betweenWeeks}} </p>
+    <p [ngStyle]="sedStyle">{{ mif | date }} Дата Мытаря и Фарисея:  {{_sedService.mifRussianDate}}</p>
+</div>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ДОКУМЕНТАЦИЯ АПРАКОСЪ</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+        <link rel="stylesheet" href="../styles/postmark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ДОКУМЕНТАЦИЯ АПРАКОСЪ</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content additional-page">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+<p><img src="https://1.bp.blogspot.com/-VfbWcrw4Qpc/XdKynSuNRdI/AAAAAAAAErE/ESat0jf6020jPfcX6i__fpJgmsn_ltiRQCLcBGAsYHQ/s320/settings.png" alt="settings" class="img-responsive"></p>
+<h1 id="проект-апракос">Проект <strong>Апракос</strong></h1>
+<p>Проект создан в <a href="https://github.com/angular/angular-cli">Angular CLI</a> version 8.3.28</p>
+<h2 id="клонирование-проекта-и-запуск"><strong>Клонирование проекта и запуск</strong>.</h2>
+<p>Создайте папку с именем <code>~/dev</code>.
+Клонируйте проект из репозитория <strong>GITHUB</strong>  в данную папку <code>/dev</code> введя в терминале: </p>
+<div><pre class="line-numbers"><code class="language-bash">git clone https://github.com/a374ru/Aprakos-Angular ~/dev</code></pre></div><p>Проверте наличие версии <strong>node.js</strong> введя в терминале: </p>
+<div><pre class="line-numbers"><code class="language-bash">node -v</code></pre></div><p>Поверте наличие и версию Angular CLI введя в терминале: </p>
+<div><pre class="line-numbers"><code class="language-bash">ng version</code></pre></div><p>Если версии различаются, тогда возмите из <em>новейшей</em> версии <code>angular</code> файл <code>package.json</code>, и после ⚠️ клонирования проекта замените старый <code>package.json</code> на новый от устанавливаемой новейшей версии, затем приступайте к установке <code>node-module</code>.</p>
+<p>Этот файл можно скопировать из пробной установки <code>node-module</code>.</p>
+<p>Для установки <code>node-module</code> в <code>dev/aprakos</code> введите в терминале: </p>
+<div><pre class="line-numbers"><code class="language-bash">npm install ~/dev/Aprakos-Angular</code></pre></div><h2 id="запуск-сервера-для-просмотра-разработки-проекта"><strong>Запуск сервера для просмотра разработки проекта</strong></h2>
+<p>Запустить сервер </p>
+<div><pre class="line-numbers"><code class="language-bash">ng s -o</code></pre></div><p> для разработки. Перейдите на <code>http://localhost:4200</code> . Сервер настроен на авторелоад.</p>
+<br>
+<br>
+
+<blockquote>
+<h3 id="если-возникли-проблемы-с-установкой-читай-здесь"><span style="color: #e34234;">Если возникли проблемы с установкой читай <a href="%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9-angular.html">здесь…</a></h3>
+</blockquote>
+<br>
+<br>
+
+<h2 id="сборка-компонентов"><strong>Сборка компонентов</strong></h2>
+<p>Генерация нового компонента.</p>
+<div><pre class="line-numbers"><code class="language-bash">ng generate component component-name</code></pre></div><p>Вы можете дополнительно использовать команды и дерективы.</p>
+<div><pre class="line-numbers"><code class="language-bash">ng generate directive|pipe|service|class|guard|interface|enum|module</code></pre></div><h2 id="сборка-проекта"><strong>Сборка проекта</strong>.</h2>
+<p>Выполните в консоли:</p>
+<div><pre class="line-numbers"><code class="language-bash">ng build</code></pre></div><p>для сборки проекта. Проект будет сохранен в директории <code>dist/</code>. Используйте флаг <code>--prod</code> для окончательного варианта публикации.</p>
+<h2 id="запуск-юнит-тестов"><strong>Запуск юнит тестов</strong>.</h2>
+<p>Выполните:</p>
+<div><pre class="line-numbers"><code class="language-bash">ng test</code></pre></div><p>to execute the unit tests via <a href="https://karma-runner.github.io">Karma</a>.</p>
+<h2 id="запуск-end-to-end-тестов"><strong>Запуск end-to-end тестов</strong>.</h2>
+<p>Выполните:</p>
+<div><pre class="line-numbers"><code class="language-bash">ng e2e</code></pre></div><p>to execute the end-to-end tests via <a href="http://www.protractortest.org/">Protractor</a>.</p>
+<h2 id="дополнительная-информация">Дополнительная информация.</h2>
+<p>To get more help on the Angular CLI use.</p>
+<div><pre class="line-numbers"><code class="language-bash">ng help</code></pre></div><p>or go check out the <a href="https://github.com/angular/angular-cli/blob/master/README.md">Angular CLI README</a>.</p>
+<hr>
+<h2 id="сборка-документации-программой-compodoc"><strong>Сборка документации программой <code>Compodoc</code></strong>.</h2>
+<p><em>Папка /documentation может быть скрыта в проводнике редактора кода. Смотри настройки VSCode</em>.</p>
+<p>Проверте наличие комподока на вашем компьютере выполнив в терминале:</p>
+<div><pre class="line-numbers"><code class="language-bash">compodoc -V</code></pre></div><p>Если <code>compodoc</code> установлен, тогда используйте команду для сборки документации: </p>
+<div><pre class="line-numbers"><code class="language-bash">npm run compodoc</code></pre></div><p>Дополнительная информация на сайте <a href="http://compodoc.app">compodoc</a>.
+Дополнительные настройки тем <em>compodoca</em> и др. - смотреть в файле <code>package.json</code>.</p>
+<hr>
+<p><a href="%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0.html">маркировка</a></p>
+<br>
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'additional-page';
+            var COMPODOC_CURRENT_PAGE_URL = 'установка.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       
+       <script type="module" src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

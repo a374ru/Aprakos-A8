@@ -1,0 +1,1434 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ДОКУМЕНТАЦИЯ АПРАКОСЪ</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+        <link rel="stylesheet" href="../styles/postmark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ДОКУМЕНТАЦИЯ АПРАКОСЪ</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li >SedService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#readme" role="tab" id="readme-tab" data-toggle="tab" data-link="readme">README</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/svrs/sed.service.ts</code>
+        </p>
+
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#_datesService" >_datesService</a>
+                            </li>
+                            <li>
+                                <a href="#betweenWeeks" >betweenWeeks</a>
+                            </li>
+                            <li>
+                                <a href="#currentWeek" >currentWeek</a>
+                            </li>
+                            <li>
+                                <a href="#glas" >glas</a>
+                            </li>
+                            <li>
+                                <a href="#mif" >mif</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Optional</span>
+                                <a href="#mifRussianDate" >mifRussianDate</a>
+                            </li>
+                            <li>
+                                <a href="#monthsRU" >monthsRU</a>
+                            </li>
+                            <li>
+                                <a href="#nineHol" >nineHol</a>
+                            </li>
+                            <li>
+                                <a href="#numberVozdvijjenie" >numberVozdvijjenie</a>
+                            </li>
+                            <li>
+                                <a href="#otstupkaV" >otstupkaV</a>
+                            </li>
+                            <li>
+                                <a href="#prestupkaV" >prestupkaV</a>
+                            </li>
+                            <li>
+                                <a href="#stupka" >stupka</a>
+                            </li>
+                            <li>
+                                <a href="#sumWeeks" >sumWeeks</a>
+                            </li>
+                            <li>
+                                <a href="#sumWeeksBeforeVozdvijjenieOfEaster" >sumWeeksBeforeVozdvijjenieOfEaster</a>
+                            </li>
+                            <li>
+                                <a href="#sumWeeksBeforeVozdvijjenieOfPyatidesyatnica" >sumWeeksBeforeVozdvijjenieOfPyatidesyatnica</a>
+                            </li>
+                            <li>
+                                <a href="#timeBoxSeconds" >timeBoxSeconds</a>
+                            </li>
+                            <li>
+                                <a href="#timeBoxVozdvijjenie" >timeBoxVozdvijjenie</a>
+                            </li>
+                            <li>
+                                <a href="#weekAfterPyatidesyatnica" >weekAfterPyatidesyatnica</a>
+                            </li>
+                            <li>
+                                <a href="#yearLastEaster" >yearLastEaster</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Protected</span>
+                                <a href="#glasSed" >glasSed</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#intermediateWeeks" >intermediateWeeks</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#numberOfWeeks" >numberOfWeeks</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#otstupkaVozdvijjenie" >otstupkaVozdvijjenie</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                                <span class="modifier">Public</span>
+                        <code>constructor(_datesService: <a href="../injectables/DateService.html" target="_self">DateService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="132" class="link-to-prism">src/app/svrs/sed.service.ts:132</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_datesService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/DateService.html" target="_self" >DateService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="glasSed"></a>
+                    <span class="name">
+                        <span class="modifier">Protected</span>
+                        <span ><b>glasSed</b></span>
+                        <a href="#glasSed"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>glasSed(sedmica: string | number)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="241"
+                            class="link-to-prism">src/app/svrs/sed.service.ts:241</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Возвращает глас Октоиха по номеру седмицы случившейся после Пасхи, но не по Пятьдесятнице.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>sedmica</td>
+                                    <td>
+                                            <code>string | number</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>принимает строку.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>возвращает номер гласа для текущей седмицы.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="intermediateWeeks"></a>
+                    <span class="name">
+                        <span class="modifier">Private</span>
+                        <span ><b>intermediateWeeks</b></span>
+                        <a href="#intermediateWeeks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>intermediateWeeks()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="256"
+                            class="link-to-prism">src/app/svrs/sed.service.ts:256</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Функция вычисляет промежуточные седмицы от 34 Недели (Воскресенья) по Пятьдесятнице до Недели Мытаря и Фарисея.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>количество седмиц</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="151"
+                            class="link-to-prism">src/app/svrs/sed.service.ts:151</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Стартовая инициализация объектов значениями дат.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="numberOfWeeks"></a>
+                    <span class="name">
+                        <span ><b>numberOfWeeks</b></span>
+                        <a href="#numberOfWeeks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>numberOfWeeks()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="161"
+                            class="link-to-prism">src/app/svrs/sed.service.ts:161</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>004.
+Вычисление <code>разницы</code> между текущем временем и датой прошедшей Пасхи.
+Обрезка значения до целого.
+Вычисление текущей седмицы.
+Вычисление седмицы по Пятьдесятнице</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="otstupkaVozdvijjenie"></a>
+                    <span class="name">
+                        <span class="modifier">Private</span>
+                        <span ><b>otstupkaVozdvijjenie</b></span>
+                        <a href="#otstupkaVozdvijjenie"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>otstupkaVozdvijjenie()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="189"
+                            class="link-to-prism">src/app/svrs/sed.service.ts:189</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Возвращает кол-во седмиц отступки или преступки для праздника Воздвижения Креста.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>количество седмиц.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+            <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_datesService"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>_datesService</b></span>
+                        <a href="#_datesService"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/DateService.html" target="_self" >DateService</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="134" class="link-to-prism">src/app/svrs/sed.service.ts:134</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="betweenWeeks"></a>
+                    <span class="name">
+                        <span ><b>betweenWeeks</b></span>
+                        <a href="#betweenWeeks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="119" class="link-to-prism">src/app/svrs/sed.service.ts:119</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Количество промежуточных седмиц пред Неделей Мытаря и Фарисея, если таковые случились. Представлены разницей между суммой всех седмициц Богослужебного года и числом 50, которое складывается из определенных седмиц Уставного Богослужения (7-ми Пасхальных, 33-x по Пятьдесятнице, 10-ти седмиц Великопостного периода).</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="currentWeek"></a>
+                    <span class="name">
+                        <span ><b>currentWeek</b></span>
+                        <a href="#currentWeek"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">src/app/svrs/sed.service.ts:63</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Текущая седмица по Пасхе.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="glas"></a>
+                    <span class="name">
+                        <span ><b>glas</b></span>
+                        <a href="#glas"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="69" class="link-to-prism">src/app/svrs/sed.service.ts:69</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mif"></a>
+                    <span class="name">
+                        <span ><b>mif</b></span>
+                        <a href="#mif"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" target="_blank" >Date</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="114" class="link-to-prism">src/app/svrs/sed.service.ts:114</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Дата Недели Мытаря и Фарисея.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mifRussianDate"></a>
+                    <span class="name">
+                            <span class="modifier">Optional</span>
+                        <span ><b>mifRussianDate</b></span>
+                        <a href="#mifRussianDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="124" class="link-to-prism">src/app/svrs/sed.service.ts:124</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Конвертированная дата МиФ.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="monthsRU"></a>
+                    <span class="name">
+                        <span ><b>monthsRU</b></span>
+                        <a href="#monthsRU"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string[]</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/svrs/sed.service.ts:53</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Массив строк который находится в <code>_datesService</code> по умолчанию.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="nineHol"></a>
+                    <span class="name">
+                        <span ><b>nineHol</b></span>
+                        <a href="#nineHol"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="132" class="link-to-prism">src/app/svrs/sed.service.ts:132</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="numberVozdvijjenie"></a>
+                    <span class="name">
+                        <span ><b>numberVozdvijjenie</b></span>
+                        <a href="#numberVozdvijjenie"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="97" class="link-to-prism">src/app/svrs/sed.service.ts:97</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Чмсло праздника Воздвижения на текущий БГ</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="otstupkaV"></a>
+                    <span class="name">
+                        <span ><b>otstupkaV</b></span>
+                        <a href="#otstupkaV"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="108" class="link-to-prism">src/app/svrs/sed.service.ts:108</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Переменные для значений отступки и преступки в чтениях.
+Указывают сдвиг от празднества Воздвижения в обе стороны.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prestupkaV"></a>
+                    <span class="name">
+                        <span ><b>prestupkaV</b></span>
+                        <a href="#prestupkaV"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="109" class="link-to-prism">src/app/svrs/sed.service.ts:109</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="stupka"></a>
+                    <span class="name">
+                        <span ><b>stupka</b></span>
+                        <a href="#stupka"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="130" class="link-to-prism">src/app/svrs/sed.service.ts:130</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Переменная для вывода русского слова в шаблоне html (преступка или отступка).</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sumWeeks"></a>
+                    <span class="name">
+                        <span ><b>sumWeeks</b></span>
+                        <a href="#sumWeeks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/svrs/sed.service.ts:58</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Вычисление количества седмиц Богослужебного года.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sumWeeksBeforeVozdvijjenieOfEaster"></a>
+                    <span class="name">
+                        <span ><b>sumWeeksBeforeVozdvijjenieOfEaster</b></span>
+                        <a href="#sumWeeksBeforeVozdvijjenieOfEaster"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="79" class="link-to-prism">src/app/svrs/sed.service.ts:79</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Сумма седмиц от Пасхи до Воздвижения.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sumWeeksBeforeVozdvijjenieOfPyatidesyatnica"></a>
+                    <span class="name">
+                        <span ><b>sumWeeksBeforeVozdvijjenieOfPyatidesyatnica</b></span>
+                        <a href="#sumWeeksBeforeVozdvijjenieOfPyatidesyatnica"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="85" class="link-to-prism">src/app/svrs/sed.service.ts:85</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Сумма седмиц от Пятьдесятницы до Воздвижени</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="timeBoxSeconds"></a>
+                    <span class="name">
+                        <span ><b>timeBoxSeconds</b></span>
+                        <a href="#timeBoxSeconds"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="92" class="link-to-prism">src/app/svrs/sed.service.ts:92</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Текущая дата в секундах.
+Для вычисления седмиц.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="timeBoxVozdvijjenie"></a>
+                    <span class="name">
+                        <span ><b>timeBoxVozdvijjenie</b></span>
+                        <a href="#timeBoxVozdvijjenie"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="74" class="link-to-prism">src/app/svrs/sed.service.ts:74</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Переменная даты Воздвижения (простоянное празнество).</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="weekAfterPyatidesyatnica"></a>
+                    <span class="name">
+                        <span ><b>weekAfterPyatidesyatnica</b></span>
+                        <a href="#weekAfterPyatidesyatnica"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/svrs/sed.service.ts:68</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Cедмица по Пятидесятнице.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="yearLastEaster"></a>
+                    <span class="name">
+                        <span ><b>yearLastEaster</b></span>
+                        <a href="#yearLastEaster"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" target="_blank" >Date</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="102" class="link-to-prism">src/app/svrs/sed.service.ts:102</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Дата текущей Пасхи для формирования даты Воздвижения из милисекунд.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+    <div class="tab-pane fade " id="c-readme">
+        <p><h1 id="сервис-седмиц">Сервис седмиц</h1>
+<h2 id="в-данном-сервисе-sedservicets-размещается-код-вычисления-седмиц-для-богослужебного-года">В данном сервисе <code>sed.service.ts</code> размещается код вычисления седмиц для Богослужебного года.</h2>
+<h3 id="также-вычисляются">Также вычисляются:</h3>
+<ol>
+<li>Продолжительность Богослужебного года в седмицах.</li>
+<li>Отступка Воздвиженская. </li>
+<li>Промежуточные седмицы.</li>
+<li>День Мытаря и Фарисея.</li>
+</ol>
+</p>
+    </div>
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Injectable, OnInit } from &#x27;@angular/core&#x27;;
+import { DateService } from &#x27;./date.service&#x27;;
+
+/**
+ * Экспонента суток (кол-во миллисекунд в сутках) &#x3D; 86.400.000
+ */
+const DMS &#x3D; 864E5
+
+/**
+ * Набор гласов для седмиц.
+ */
+const GLASSEDMIC &#x3D; {
+  &quot;1&quot;: 8, &quot;2&quot;: 1, &quot;3&quot;: 2, &quot;4&quot;: 3, &quot;5&quot;: 4, &quot;6&quot;: 5, &quot;7&quot;: 6, &quot;8&quot;: 7,
+  &quot;9&quot;: 8, &quot;10&quot;: 1, &quot;11&quot;: 2, &quot;12&quot;: 3, &quot;13&quot;: 4, &quot;14&quot;: 5, &quot;15&quot;: 6, &quot;16&quot;: 7,
+  &quot;17&quot;: 8, &quot;18&quot;: 1, &quot;19&quot;: 2, &quot;20&quot;: 3, &quot;21&quot;: 4, &quot;22&quot;: 5, &quot;23&quot;: 6, &quot;24&quot;: 7,
+  &quot;25&quot;: 8, &quot;26&quot;: 1, &quot;27&quot;: 2, &quot;28&quot;: 3, &quot;29&quot;: 4, &quot;30&quot;: 5, &quot;31&quot;: 6, &quot;32&quot;: 7,
+  &quot;33&quot;: 8, &quot;34&quot;: 1, &quot;35&quot;: 2, &quot;36&quot;: 3, &quot;37&quot;: 4, &quot;38&quot;: 5, &quot;39&quot;: 6, &quot;40&quot;: 7,
+  &quot;41&quot;: 8, &quot;42&quot;: 1, &quot;43&quot;: 2, &quot;44&quot;: 3, &quot;45&quot;: 4, &quot;46&quot;: 5, &quot;47&quot;: 6, &quot;48&quot;: 7,
+  &quot;49&quot;: 8, &quot;50&quot;: 1, &quot;51&quot;: 2, &quot;52&quot;: 3, &quot;53&quot;: 4, &quot;54&quot;: 5, &quot;55&quot;: 6, &quot;56&quot;: 7,
+  &quot;57&quot;: 8
+}
+
+const NINEHOLIDAYS &#x3D; {
+
+  rojdestvoBogorodici: { month: 8, day: 21 },
+  vozdvijjenieKresta: { month: 8, day: 27 },
+  vvedenieVoHram: { month: 11, day: 3 },
+  rojdestvoXristovo: { month: 0, day: 7 }, // 0 &#x3D; month of January
+  kreshenieGospodne: { month: 0, day: 19 },
+  sretenieGospodne: { month: 1, day: 15 },
+  blagoveshenieBogorodici: { month: 3, day: 7 },
+  //  Здесь бывают по календарю еще четыре &#x60;ПЕРЕХОДЯЩИХ&#x60; празнества: 
+  // 8. Вход Господень в Иерусалим, 
+  // 0. Пасха(не входящая в состав двунадесятых), 
+  // 9. Вознесение, 
+  // 10. Пятьдесятница.
+  preobrajjenieGospodne: { month: 7, day: 19 },
+  uspenieBogorodici: { month: 7, day: 28 }
+
+}
+
+
+@Injectable({
+  providedIn: &#x27;root&#x27;
+})
+
+export class SedService implements OnInit {
+
+  /**
+   * Массив строк который находится в &#x60;_datesService&#x60; по умолчанию.
+   * 
+   */
+  monthsRU: string[];
+
+  /** 
+   * Вычисление количества седмиц Богослужебного года.
+  */
+  sumWeeks: number;
+
+  /**
+   * Текущая седмица по Пасхе.
+   */
+  currentWeek: number;
+
+  /**
+   * Cедмица по Пятидесятнице.
+   */
+  weekAfterPyatidesyatnica: number;
+  glas: string;
+
+  /**
+   * Переменная даты Воздвижения (простоянное празнество).
+   */
+  timeBoxVozdvijjenie: number;
+
+  /**
+   * Сумма седмиц от Пасхи до Воздвижения.
+   */
+  sumWeeksBeforeVozdvijjenieOfEaster: number;
+
+
+  /**
+   * Сумма седмиц от Пятьдесятницы до Воздвижени
+   */
+  sumWeeksBeforeVozdvijjenieOfPyatidesyatnica: number;
+
+
+  /**
+   * Текущая дата в секундах.
+   * Для вычисления седмиц.
+   */
+  timeBoxSeconds: number;
+  
+  /**
+   * Чмсло праздника Воздвижения на текущий БГ
+   */
+  numberVozdvijjenie: number;
+
+  /**
+   * Дата текущей Пасхи для формирования даты Воздвижения из милисекунд.
+   */
+  yearLastEaster: Date;
+
+  /**
+   * Переменные для значений отступки и преступки в чтениях.
+   * Указывают сдвиг от празднества Воздвижения в обе стороны.
+   */
+  otstupkaV: number;
+  prestupkaV: number;
+
+  /**
+   * Дата Недели Мытаря и Фарисея.
+   */
+  mif: Date;
+
+  /**
+   * Количество промежуточных седмиц пред Неделей Мытаря и Фарисея, если таковые случились. Представлены разницей между суммой всех седмициц Богослужебного года и числом 50, которое складывается из определенных седмиц Уставного Богослужения (7-ми Пасхальных, 33-x по Пятьдесятнице, 10-ти седмиц Великопостного периода).
+   */
+  betweenWeeks: number;
+
+  /**
+   * Конвертированная дата МиФ.
+   */
+  mifRussianDate?: string;
+
+  /**
+   * Переменная для вывода русского слова в шаблоне html (преступка или отступка).
+   */
+
+  stupka: string;
+
+  nineHol: object;
+
+  public constructor(public _datesService: DateService) {
+
+    this.timeBoxSeconds &#x3D;  this._datesService.timeBox.getTime()
+
+    console.warn(&quot;Грядущая Православная Пасха: &quot;, this._datesService.datesEasterYear.nextEasterRU)
+
+    this.numberOfWeeks();
+    this.otstupkaVozdvijjenie();
+    console.log(&#x60;Воздвиженская ${this.stupka} : ${this.otstupkaV}&#x60;);
+    this.intermediateWeeks();
+    this.nineHol &#x3D; NINEHOLIDAYS
+
+  }
+
+  /**
+   * Стартовая инициализация объектов значениями дат.
+   */
+  ngOnInit() {
+  }
+
+
+  /** 004.
+   * Вычисление &#x60;разницы&#x60; между текущем временем и датой прошедшей Пасхи.
+   * Обрезка значения до целого.
+   * Вычисление текущей седмицы.
+   * Вычисление седмицы по Пятьдесятнице
+   */
+  numberOfWeeks() {
+    this.sumWeeks &#x3D; (Math.trunc((this._datesService.datesEasterYear.nextEaster - this._datesService.datesEasterYear.lastEaster) / DMS / 7));
+    this.currentWeek &#x3D; (Math.trunc((Date.now() - this._datesService.datesEasterYear.lastEaster) / DMS / 7 + 1));
+
+    if (this.sumWeeks &#x3D;&#x3D;&#x3D; 8) {
+      this.weekAfterPyatidesyatnica &#x3D; this.sumWeeks - 7;
+      this.glas &#x3D; this.glasSed(String(this.currentWeek));
+    }
+    else {
+      this.weekAfterPyatidesyatnica &#x3D; null;
+      this.glas &#x3D; this.glasSed(String(this.currentWeek));
+    }
+
+    /** 004.
+     *  Вычисление даты для Недели Мытаря и Фарисея и количества промежуточных седмиц с учетом високосного года.
+     * 
+     */
+    this.mif &#x3D; new Date(this._datesService.datesEasterYear.nextEaster - 6047999999);
+    this.mifRussianDate &#x3D; this.mif.getDate() + &quot; &quot; + this._datesService.monthsRU[this.mif.getMonth()];
+
+    console.log(&#x60;Текущая седмица по Пасхе: ${this.currentWeek}&#x60;)
+    console.log(&#x60;Кол-во седмиц в Пасхальном году (между Пасхами): ${this.sumWeeks}&#x60;);
+  }
+
+  /**
+   * Возвращает кол-во седмиц отступки или преступки для праздника Воздвижения Креста.
+   * @return количество седмиц.
+   */
+  private otstupkaVozdvijjenie() {
+
+    this.yearLastEaster &#x3D; new Date(this._datesService.datesEasterYear.lastEaster);
+    this.numberVozdvijjenie &#x3D; this.yearLastEaster.getFullYear();
+    this.timeBoxVozdvijjenie &#x3D; new Date(this.numberVozdvijjenie, NINEHOLIDAYS.vozdvijjenieKresta.month, NINEHOLIDAYS.vozdvijjenieKresta.day).getTime();
+
+    console.log(&quot;&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;&quot;)
+    
+    this.sumWeeksBeforeVozdvijjenieOfEaster &#x3D; (Math.trunc((this.timeBoxVozdvijjenie - this._datesService.datesEasterYear.lastEaster) / DMS / 7));
+    this.sumWeeksBeforeVozdvijjenieOfPyatidesyatnica &#x3D; (Math.trunc((this.timeBoxVozdvijjenie - this._datesService.datesEasterYear.lastEaster) / DMS / 7) - 6);
+    
+    console.log(&#x60;От Пасхи до Воздвижения Креста: ${this.sumWeeksBeforeVozdvijjenieOfEaster}. От Пятидесятницы: ${this.sumWeeksBeforeVozdvijjenieOfPyatidesyatnica}&#x60;)
+    
+    if (this.sumWeeksBeforeVozdvijjenieOfPyatidesyatnica &gt; 17) {
+      this.otstupkaV &#x3D; this.sumWeeksBeforeVozdvijjenieOfPyatidesyatnica - 17;
+      this.stupka &#x3D; &quot;отступка&quot;
+    }
+    else this.otstupkaV &#x3D; 17 - this.sumWeeksBeforeVozdvijjenieOfPyatidesyatnica;
+    this.stupka &#x3D; &quot;преступка&quot;
+    
+    /**
+     * В данном операторе &#x60;if&#x60; проверяется было ли Воздвижение и превышает ли кол-во седмиц число 17. Если да, то возвращается разность (otstupkaV), на которую больше прошло седмиц.
+     * 
+     */
+    if (this.timeBoxSeconds &gt;&#x3D; this.timeBoxVozdvijjenie &amp;&amp; this.sumWeeks &gt; this.sumWeeksBeforeVozdvijjenieOfPyatidesyatnica &amp;&amp; this.sumWeeks &gt; 17) {
+      return (&quot;Отступка по Воздвижении в седмицах: &quot; + this.otstupkaV);
+    }
+    
+    /**
+     * В данном &#x60;if&#x60; возвращается нехватка до семнадцати седмиц если праздник Воздвижения случился ранее 17 седмицы после Пасхи.
+     * 
+     */
+    else if (this.timeBoxSeconds &gt;&#x3D; this.timeBoxVozdvijjenie &amp;&amp; this.sumWeeks &lt; this.sumWeeksBeforeVozdvijjenieOfPyatidesyatnica &amp;&amp; this.sumWeeks &gt; 17) {
+      var clog &#x3D; &#x60;Преступка --- + ${this.prestupkaV}&#x60;
+      return (clog);
+    }
+    
+    else if (this.sumWeeksBeforeVozdvijjenieOfEaster - this.currentWeek !&#x3D; 0) {
+      console.log(&quot;До Воздвижения осталось седмиц: &quot;, (this.sumWeeksBeforeVozdvijjenieOfEaster - this.currentWeek));
+    }
+
+    else
+      console.log(&quot;До Воздвижения осталось дней: &quot;, (7 - (this._datesService.timeBox.getDay())));
+    
+  }
+  
+  /**
+   * Возвращает глас Октоиха по номеру седмицы случившейся после Пасхи, но не по Пятьдесятнице.
+   *  
+   * @param {string} sedmica принимает строку.
+    * @returns возвращает номер гласа для текущей седмицы.
+    */
+  protected glasSed(sedmica: string | number) {
+
+    if (sedmica) {
+      return String(GLASSEDMIC[sedmica]);
+    }
+
+    else return &quot;невнятный 🙅‍ --&quot;;
+  }
+
+
+  /**
+   * Функция вычисляет промежуточные седмицы от 34 Недели (Воскресенья) по Пятьдесятнице до Недели Мытаря и Фарисея.
+   * 
+   * @returns количество седмиц
+   */
+  private intermediateWeeks() {
+
+      this.betweenWeeks &#x3D; this.sumWeeks - (17 + 33);
+      console.log(&#x60;Промежуточных седмиц: ${this.betweenWeeks} &#x60;)
+
+
+  }
+
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = '009.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       
+       <script type="module" src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
