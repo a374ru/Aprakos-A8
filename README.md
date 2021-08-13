@@ -2,7 +2,7 @@
 
 ---
 
-# **Документация проекта [Cий день](https://a374ru.github.io/Aprakos-Angular) для его главной части [Апракосъ](https://aprakos.ru/currentday/APRAKOS/stvol.html).** 
+# **Документация проекта [Cий день](https://a374ru.github.io/Aprakos-Angular) для его главной части [Апракосъ](https://a374ru.github.io/aprakos.ru/).** 
 
 ## [Смотреть документацию здесь](https://a374ru.github.io/Aprakos-Angular)
 
